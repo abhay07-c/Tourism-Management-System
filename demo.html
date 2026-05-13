@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    login = () => {
+        let x = confirm("you want to confirm");
+        if(x==true)
+        {
+            document.writeln("<h1>"+`Welcome`+"</h1>")
+        }
+        else{
+            alert("Warning");
+        }
+    }
+</script>
+<body>
+    <button onclick="login()">Click</button>
+</body>
+</html>
